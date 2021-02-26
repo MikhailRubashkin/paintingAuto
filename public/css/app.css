@@ -72,33 +72,37 @@ b{
   text-transform:uppercase;
   transition: all 1s linear;
 }
+
 b.back{
   transform: translateZ(-100px) rotateY(180deg);
 }
+
 b.right{
   transform:rotateY(-270deg) translateX(100px);
   transform-origin: top right;
-    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAW88vlO4w547lZLdZ9qU3Bf0BsjCw-HyD8w&usqp=CAU);
+  background-image: url(/images/55.jpg?f3b570f98c45a04b54ea3111f6f751ff);
+  background-size: contain;
 }
+
 b.left{
   transform:rotateY(270deg) translateX(-100px);
   transform-origin: center left;
-  background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROXTS4knmob-x2xdoE-S47TRKqhnwpikxjgw&usqp=CAU);
+  background-image: url(/images/56.jpg?821115242126f5a55561c316e55a7a7a);
+  background-size: contain;
 }
+
 b.top{
   transform:rotateX(-90deg) translateY(-100px);
   transform-origin: top center;
 }
+
 b.bottom{
   transform:rotateX(90deg) translateY(100px);
   transform-origin: bottom center;
 }
+
 b.front{
   transform: translateZ(100px);
-  background-image: url(/images/55.jpg?f3b570f98c45a04b54ea3111f6f751ff);
-  background-size: contain;
-
-
 }
 
 /* inner cube */
