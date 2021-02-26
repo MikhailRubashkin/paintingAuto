@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('title-block')
-  contact
+  Контакты
 @endsection
 
 @section('content')
-  <h1>contact</h1>
+  <h1>Мы находимся:</h1>
 @endsection

@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('title-block')
-  abaut
+  О нас
 @endsection
 
 @section('content')
-  <h1>about</h1>
+  <h1>Наши работы</h1>
 @endsection
