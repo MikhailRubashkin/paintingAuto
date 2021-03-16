@@ -7,6 +7,7 @@
 @section('content')
   <h2>Кузовной ремонт, покраска автомобиля и полировка</h2>
 
+
 @endsection
 
 @section('aside')

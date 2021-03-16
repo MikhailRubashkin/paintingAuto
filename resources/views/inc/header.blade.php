@@ -6,9 +6,12 @@
     <a class="p-2 text-dark" href="{{route('home')}}">Главна страница</a>
     <a class="p-2 text-dark" href="{{route('about')}}">О нас</a>
     <a class="p-2 text-dark" href="{{route('contact')}}">Контакты</a>
+    <img class="mb-2" src="{{asset('images/47.png')}}" alt="" width="20" height="20">
     <a class="p-2 text-dark"> {{$data->name}}</a>
-    <a class="p-2 text-dark">Погода: {{$data->main->temp_min}} °C</a>
-    <a class="p-2 text-dark">Влажность: {{$data->main->humidity}} %</a>
-    <a class="p-2 text-dark">Ветер: {{$data->wind->speed}} км/ч></a>
+    <a class="p-2 text-dark"> {{$data->main->temp_min}} °C</a>
+    <img class="mb-2" src="{{asset('images/45.jpg')}}" alt="" width="20" height="20">
+    <a class="p-2 text-dark"> {{$data->main->humidity}} %</a>
+    <img class="mb-2" src="{{asset('images/46.jpg')}}" alt="" width="40" height="40">
+    <a class="p-2 text-dark"> {{$data->wind->speed}} км/ч></a>
   </nav>
 </div>

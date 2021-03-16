@@ -3,41 +3,9 @@
   footer {
     width: 80%;
     margin-left: 10%;
-    background: green
   }
 
 
-    @-webkit-keyframes spinnow {
-    100% {
-        transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-    }
-}
-@-moz-keyframes spinnow {
-    100% {
-        transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-    }
-}
-@-ms-keyframes spinnow {
-    100% {
-        transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-    }
-}
-
-img {
-    position: relative;
-    top: 30px;
-    left: 30px;
-    width: 100px;
-    height: 100px;
-
-    animation: 5s spinnow infinite linear;
-    -moz-animation: 5s spinnow infinite linear;
-    -webkit-animation: 5s spinnow infinite linear;
-    -ms-animation: 5s spinnow infinite linear;
-}
 
 
 
@@ -63,7 +31,7 @@ img {
   margin: 0 auto;
   width: 200px;
   transform-style: preserve-3d;
-  animation: spin 10s infinite linear;
+  animation: spin 30s infinite linear;
   transition: all 1s linear;
 }
 
