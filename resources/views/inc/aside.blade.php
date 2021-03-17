@@ -1,6 +1,6 @@
 @section('aside')
 <div class="aside">
-  <h4>Боковая панель</h4>
+  <h4>Мы осуществляем кузовной ремонт всех марок авто</h4>
   <div class="wrapper">
     <div class="cube">
       <b class="front">Ваша рекламма</b>
@@ -17,7 +17,7 @@
       <i class="right"></i>
     </div>
   </div>
-  <p>Это просто боковая панель</p>
-  
+  <p>Выполнение работ в срок!</p>
+
   @show
 </div>

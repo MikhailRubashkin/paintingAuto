@@ -11,7 +11,7 @@
     <a class="p-2 text-dark"> {{$data->main->temp_min}} °C</a>
     <img class="mb-2" src="{{asset('images/45.jpg')}}" alt="" width="20" height="20">
     <a class="p-2 text-dark"> {{$data->main->humidity}} %</a>
-    <img class="mb-2" src="{{asset('images/46.jpg')}}" alt="" width="40" height="40">
+    <img class="mb-2" src="{{asset('images/46.png')}}" alt="" width="20" height="20">
     <a class="p-2 text-dark"> {{$data->wind->speed}} км/ч></a>
   </nav>
 </div>

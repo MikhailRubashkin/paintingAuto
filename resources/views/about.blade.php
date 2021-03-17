@@ -43,7 +43,7 @@
         </div>
 
         <div class="item">
-          <img src="{{asset('images/49.jpg')}}" alt="Chicago" style="width:100%;">
+          <img src="{{asset('images/48.jpg')}}" alt="Chicago" style="width:100%;">
         </div>
 
         <div class="item">
@@ -87,7 +87,7 @@
         </div>
 
         <div class="item">
-          <img src="{{asset('images/48.jpg')}}" alt="New york" style="width:100%;">
+          <img src="{{asset('images/49.jpg')}}" alt="New york" style="width:100%;">
         </div>
       </div>
       </body>
